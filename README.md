@@ -76,35 +76,35 @@ The skill uses Ian's surreal Xiaohei article illustration style:
 
 ### Two breakpoints
 
-![Two breakpoints](examples/images/01-two-breakpoints.png)
+![Two breakpoints](examples/images/01-two-breakpoints-en.png)
 
 ### Sort by purpose
 
-![Sort by purpose](examples/images/02-sort-by-purpose.png)
+![Sort by purpose](examples/images/02-sort-by-purpose-en.png)
 
 ### One fish, many uses
 
-![One fish, many uses](examples/images/03-one-fish-many-uses.png)
+![One fish, many uses](examples/images/03-one-fish-many-uses-en.png)
 
 ### Path to the next step
 
-![Path to the next step](examples/images/04-handoff-path.png)
+![Path to the next step](examples/images/04-handoff-path-en.png)
 
 ### Information well
 
-![Information well](examples/images/05-information-well.png)
+![Information well](examples/images/05-information-well-en.png)
 
 ### Idea press
 
-![Idea press](examples/images/06-idea-press.png)
+![Idea press](examples/images/06-idea-press-en.png)
 
 ### Content fermentation
 
-![Content fermentation](examples/images/07-content-fermentation.png)
+![Content fermentation](examples/images/07-content-fermentation-en.png)
 
 ### Trust bridge
 
-![Trust bridge](examples/images/08-trust-bridge.png)
+![Trust bridge](examples/images/08-trust-bridge-en.png)
 
 These images calibrate the style. Invent metaphors from the current article instead of copying their objects and compositions.
 
@@ -197,8 +197,8 @@ See [examples/prompts.md](examples/prompts.md) for more prompts.
 │   └── ian-wechat-qr.jpg
 ├── examples/
 │   ├── images/
-│   │   ├── 01-two-breakpoints.png
-│   │   ├── 02-sort-by-purpose.png
+│   │   ├── 01-two-breakpoints-en.png
+│   │   ├── 02-sort-by-purpose-en.png
 │   │   └── ...
 │   └── prompts.md
 └── ian-xiaohei-illustrations/
