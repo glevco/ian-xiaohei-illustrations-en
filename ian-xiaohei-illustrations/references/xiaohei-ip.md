@@ -1,53 +1,53 @@
-# 小黑 IP
+# The Xiaohei Character
 
-## 角色定义
+## Character definition
 
-小黑是 Ian 中文正文配图的固定视觉 IP。
+Xiaohei is the recurring character in Ian's article illustrations.
 
-默认每张图都要出现小黑。小黑不是吉祥物，不是贴纸，不是可爱装饰，而是正在认真参与系统运转的荒诞工作者。
+Include Xiaohei in each image by default: an absurd worker earnestly operating the system, never a mascot, sticker, or cute decoration.
 
-## 外形
+## Appearance
 
-- 黑色实心小怪物。
-- 白色圆点眼睛。
-- 细腿，偶尔有细胳膊。
-- 身体可以是圆柱、黑豆、黑盒、漏斗、影子、洞口、机器内部黑块。
-- 轮廓略微不规则，有手绘感。
-- 表情空、呆、冷静、认真。
+- A small solid-black creature.
+- Round white dot eyes.
+- Thin legs, sometimes thin arms.
+- A body shaped like a cylinder, black bean, black box, funnel, shadow, opening, or dark mass inside a machine.
+- A slightly irregular, hand-drawn outline.
+- A blank, deadpan, calm, serious expression.
 
-## 性格
+## Personality
 
-- 很认真，但做的事有点荒诞。
-- 像一个低调的系统操作员。
-- 冷幽默，不卖萌。
-- 有点笨拙，但不蠢。
-- 像在白板草图里真的负责某个工作。
+- Takes a slightly absurd task very seriously.
+- Acts like a quiet system operator.
+- Dry humor without playing cute.
+- A little clumsy, but not foolish.
+- Has a real job to do within the whiteboard sketch.
 
-## 常见职责
+## Typical responsibilities
 
-让小黑承担核心动作：
+Give Xiaohei the central action:
 
-- 搬运素材。
-- 拉线汇聚信息源。
-- 卡在断点里。
-- 在机器里操作“判断”杆。
-- 变成筛选漏斗。
-- 切开“素材鱼”。
-- 盖章承接话术。
-- 牵着承接路径。
-- 举警告牌看坑。
-- 从洞里伸手但接不住内容。
-- 在旁边搬砖、搭桥、开门、分拣、记录。
+- Carry source material.
+- Pull strings to gather information sources.
+- Get stuck at a breakpoint.
+- Operate a "Judgment" lever inside a machine.
+- Become a sorting funnel.
+- Cut up a "source-material fish".
+- Stamp calls to action.
+- Guide the path to a next step.
+- Hold a warning sign beside pitfalls.
+- Reach out of a hole but fail to catch the content.
+- Carry bricks, build bridges, open doors, sort, or take notes.
 
-## 禁止
+## Exclusions
 
-- 不要把小黑画成过度可爱的吉祥物。
-- 不要画成儿童卡通角色。
-- 不要给小黑复杂服装、表情包、闪亮眼睛。
-- 不要让小黑只是站在角落里看。
-- 不要让小黑抢走结构表达。
-- 不要把小黑画得太商业、太圆润、太精致。
+- An overly cute mascot.
+- A children's cartoon character.
+- Elaborate clothing, meme expressions, or sparkling eyes.
+- Standing in a corner merely watching.
+- Distracting from the structure being explained.
+- A commercial, overly rounded, or highly polished character design.
 
-## 判断标准
+## Evaluation
 
-如果去掉小黑，图的核心隐喻还能完全成立，说明小黑太装饰了；要重写提示词，让小黑成为动作主体。
+If the core metaphor still works perfectly with Xiaohei removed, the character is too decorative. Rewrite the prompt so Xiaohei performs the central action.

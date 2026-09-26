@@ -1,51 +1,51 @@
-# 生图提示词模板
+# Image Generation Prompt Template
 
-每张图单独生成。根据正文内容替换变量，不要把多张图拼在一起。
+Generate each image separately. Replace the variables using the article's content; do not combine several images into one.
 
 ```text
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 landscape illustration for an English article.
 
 Visual DNA:
-Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
+Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten English annotations. Clean, absurd product-sketch feeling. No gradients, shadows, paper texture, complex background, commercial vector style, presentation infographic look, cute mascot poster, children's illustration, or realistic UI.
 
-Recurring IP character required:
-小黑, a small solid-black absurd creature with white dot eyes, tiny thin legs, blank serious expression, slightly uneven hand-drawn body shape. 小黑 must perform the core conceptual action, not decorate the scene. Make 小黑 serious, deadpan, and slightly bizarre, not cute.
+Required recurring character:
+Xiaohei, a small solid-black absurd creature with white dot eyes, tiny thin legs, a blank serious expression, and a slightly uneven hand-drawn body shape. Xiaohei must perform the core conceptual action. Make Xiaohei serious, deadpan, and slightly bizarre, never cute or decorative.
 
 Theme:
-{正文配图主题}
+{article illustration theme}
 
 Structure type:
-{结构类型：Workflow / 系统局部 / 前后对比 / 角色状态 / 概念隐喻 / 方法分层 / 地图路线 / 小漫画分镜}
+{workflow / part of a system / before and after / character states / conceptual metaphor / method layers / route map / short comic sequence}
 
 Core idea:
-{这张图要表达的核心意思}
+{the central idea this image should communicate}
 
 Composition:
-{具体画面：小黑在哪里、正在做什么、主要物件是什么、信息如何流动}
+{specific scene: where Xiaohei is, what Xiaohei is doing, the main objects, and how information flows}
 
 Suggested elements:
-{元素1} / {元素2} / {元素3} / {元素4}
+{element 1} / {element 2} / {element 3} / {element 4}
 
-Chinese handwritten labels:
-{标注词1} / {标注词2} / {标注词3} / {标注词4} / {可选标注词5}
+English handwritten labels:
+{label 1} / {label 2} / {label 3} / {label 4} / {optional label 5}
 
 Color use:
-Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
+Black for main line art and Xiaohei. Orange for the main flow, paths, and arrows. Red only for key warnings, problems, or results. Blue only for secondary notes, feedback, or system state.
 
 Constraints:
-One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
+All visible text must be English, including tiny labels and text on objects. One image explains only one core structure. Keep the main subject around 40%–60% of the canvas. Preserve at least 35% blank white space. Use at most 5–8 short handwritten English labels, preferably 1–4 words each. Do not write a title in the top-left corner or put the structure type on the image. Avoid formal diagrams, course slides, and dense explainers. Do not copy prior examples or reuse known compositions unless explicitly requested; invent a fresh visual metaphor for this article. Keep it clear without becoming an instruction sheet, interesting without being childish, and strange but clean.
 ```
 
-## 图像编辑提示
+## Image editing prompts
 
-去掉左上角标题：
+Remove a top-left title:
 
 ```text
-Edit the provided image. Remove only the handwritten title "{要删除的文字}" and its underline from the top-left corner. Fill that area with the same clean white background, matching the surrounding blank paper. Preserve everything else exactly: characters, labels, paths, line style, composition, aspect ratio, and image quality. Do not add any new text or objects.
+Edit the provided image. Remove only the handwritten title "{text to remove}" and its underline from the top-left corner. Fill that area with the same clean white background. Preserve everything else exactly: characters, labels, paths, line style, composition, aspect ratio, and image quality. Do not add any new text or objects. Keep all visible text in English.
 ```
 
-增强怪诞感：
+Strengthen the surreal character action:
 
 ```text
-Regenerate this illustration with the same core meaning and simple layout, but make 小黑 more central to the conceptual action. 小黑 should be doing the strange work that explains the idea, not standing beside the diagram. Keep it clean, sparse, hand-drawn, and not cute.
+Regenerate this illustration with the same core meaning and simple layout, making Xiaohei more central to the conceptual action. Xiaohei should perform the strange work that explains the idea. Keep it clean, sparse, hand-drawn, and never cute. Keep all visible text in English.
 ```
