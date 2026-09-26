@@ -1,5 +1,8 @@
 # Ian Xiaohei Illustrations
 
+> [!NOTE]
+> This is an English-language fork of [Ian Xiaohei Illustrations by Ian](https://github.com/helloianneo/ian-xiaohei-illustrations). The documentation, skill instructions, prompts, and text in the example images have been translated into English. All credit for the original skill and visual style belongs to Ian.
+
 > Turn the insights, processes, states, and metaphors in English articles into clean, surreal, hand-drawn illustrations on white backgrounds.
 >
 > 16:9 landscape | Xiaohei character | White background and hand-drawn lines | Sparse red/orange/blue English annotations | Codex Skill
